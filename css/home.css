@@ -32,6 +32,19 @@ body{
 	background: url(../img/negativado_background.png);
 }
 .img-geral{
+	width: 90%;
+	-webkit-transition: width 2s; 
+	transition: width 2s;
+}
+.img-geral:hover{
+	width: 100%;
+}
+.img-carro{
+	width: 90%;
+	-webkit-transition: width 2s; 
+	transition: width 2s;
+}
+.img-carro:hover{
 	width: 100%;
 }
 .input-dados{
@@ -149,9 +162,7 @@ body{
 		width: 65%;
 		padding: 15px;
 	}
-	.img-carro{
-		width: 100%;
-	}
+	
 	.botao-padrao{
 		background-color: #28377A !important;
 		border-radius: 7.71275px !important;
@@ -236,9 +247,6 @@ body{
 		max-width: 55%;
 		padding: 10px;
 	}
-	.img-carro{
-		width: 100%;
-	}
 	.botao-padrao{
 		background-color: #28377A !important;
 		border-radius: 7.71275px !important;
@@ -310,12 +318,6 @@ body{
 		max-width: 55%;
 		padding: 10px;
 		text-align: justify;
-	}
-	footer-aux{
-		display-none
-	}
-	.img-carro{
-		width: 100%;
 	}
 	.botao-padrao{
 		background-color: #28377A !important;

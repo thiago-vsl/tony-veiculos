@@ -36,11 +36,10 @@
 						   <tbody>";
 					$script = "";
 					while($dados = mysqli_fetch_array($SQL_query)){
-						print "<tr>
-								<td class='dados_tabela' style='border-right: solid 1px'><input id='tvt_nome".$dados['TEL_CODIGO']."' name='tvt_nome".$dados['TEL_CODIGO']."' value='".$dados['NOM_NOME']."' class='input-dados'> </td>
-								<td class='dados_tabela' style='border-right: solid 1px'><input id='tvt_telefone".$dados['TEL_CODIGO']."' name='tvt_telefone".$dados['TEL_CODIGO']."' value='".$dados['TEL_NUMERO']."' class='input-dados'></td>
-								<td class='dados_tabela'>
-									<span id='cad_aux1'>
+						print "<tr class='dados_tabela'>
+								<td style='border-right: solid 1px'><input id='tvt_nome".$dados['TEL_CODIGO']."' name='tvt_nome".$dados['TEL_CODIGO']."' value='".$dados['NOM_NOME']."' class='input-dados'> </td>
+								<td style='border-right: solid 1px'><input id='tvt_telefone".$dados['TEL_CODIGO']."' name='tvt_telefone".$dados['TEL_CODIGO']."' value='".$dados['TEL_NUMERO']."' class='input-dados'></td>
+								<td 									<span id='cad_aux1'>
 										<img src='img/correcao.png' width='16px' style='margin-right:5px;cursor:pointer' onclick='corrige(".$dados['NOM_CODIGO'].",".$dados['TEL_CODIGO'].")' >
 									</span>
 									<span id='cad_aux2'>

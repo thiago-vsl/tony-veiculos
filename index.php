@@ -58,12 +58,12 @@
 					</div>	
 				</div>
 				<div class="card-ladoalado2">
-					<img src="img/carro.png" class="img-responsive img-geral" height="auto">
+					<img src="img/carro.png" class="img-responsive img-carro" height="auto">
 				</div>	
 			</div>
 			<div class="card-container mobile-show" style="text-align: left; padding-top: 0px !important;">
 				<div class="card-ladoalado2">
-					<img src="img/carro.png" class="img-responsive img-geral" height="auto">
+					<img src="img/carro.png" class="img-responsive img-carro" height="auto">
 				</div>
 				<div class="card-ladoalado1">
 					<div class="card-marcacao">
@@ -178,7 +178,7 @@
 					</div>
 				</div>
 				<div class="card-ladoalado6">
-					<img src="img/cel2.png" class="img-responsive" style="width: 250px" height="auto">
+					<img src="img/cel2.png" class="img-responsive img-geral" height="auto">
 				</div>
 			</div>
 			<div class="card-container text-center mobile-show">

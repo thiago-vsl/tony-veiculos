@@ -11,6 +11,9 @@
 .card-background {
 	background: url(../img/negativado_background.png);
 }
+.dados_tabela:hover{
+	background-color: #EEE; 
+}
 body{
 	font-family: EncodeSans !important;
 	color: #000 !important;
